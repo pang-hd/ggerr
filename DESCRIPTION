@@ -1,0 +1,21 @@
+Package: ggerr
+Title: Easy errorbars to ggplots
+Version: 0.0.1
+Authors@R: 
+    person(given = "Thomas",
+           family = "Poulsen",
+           role = c("aut", "cre"),
+           email = "tapo@novozymes.com")
+Description: This package exports stat_err() for adding errorbars to ggplots.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    ggplot2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
