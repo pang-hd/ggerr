@@ -40,3 +40,11 @@ ggplot(iris, aes(x = Petal.Length, y = Petal.Width, group = Species)) + geom_poi
 ```
 
 ![](ggerr_files/figure-markdown_github/unnamed-chunk-4-1.png)
+
+## Installation
+
+Install the package using `devtools`:
+
+``` r
+devtools::install_github("tp2750/ggerr")
+```
