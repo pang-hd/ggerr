@@ -15,8 +15,8 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(ggerr)
 library(ggplot2)
+library(ggerr)
 ```
 
 The `ggerr` package makes it easier to add error-bars to pplots.

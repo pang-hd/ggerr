@@ -8,12 +8,9 @@ The `ggerr` package makes it easier to add error-bars to pplots.
 Adding errorbars of +/- one standard deviation in each group is done like this:
 
 ``` r
+library(ggplot2)
 library(ggerr)
-```
 
-    ## Loading required package: ggplot2
-
-``` r
 ggplot(iris, aes(x = Petal.Length, y = Petal.Width, color = Species)) + geom_point() + stat_err() + stat_err(geom="point")
 ```
 
